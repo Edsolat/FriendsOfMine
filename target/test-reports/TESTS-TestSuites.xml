@@ -1,2 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites />
+<testsuites>
+  <testsuite errors="1" failures="0" hostname="edouard-pc" id="0" name="ActiviteServiceIntegrationSpec" package="friendsofmine" tests="2" time="0.591" timestamp="2015-03-30T12:20:16">
+      <properties />
+
+      <testcase classname="friendsofmine.ActiviteServiceIntegrationSpec" name="test insertion ou mise à jour d&apos;une activité avec responsable" time="0.461" />
+
+      <testcase classname="friendsofmine.ActiviteServiceIntegrationSpec" name="test suppression d&apos;une activité" time="0.126">
+          <error message="No signature of method: friendsofmine.ActiviteService.deleteActivite() is applicable for argument types: (friendsofmine.Activite) values: [friendsofmine.Activite : 2]" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: friendsofmine.ActiviteService.deleteActivite() is applicable for argument types: (friendsofmine.Activite) values: [friendsofmine.Activite : 2]
+	at friendsofmine.ActiviteServiceIntegrationSpec.test suppression d&apos;une activité(ActiviteServiceIntegrationSpec.groovy:51)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from test insertion ou mise à jour d'une activité avec responsable--
+--Output from test suppression d'une activité--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from test insertion ou mise à jour d'une activité avec responsable--
+--Output from test suppression d'une activité--
+]]></system-err>
+
+  </testsuite>
+</testsuites>
