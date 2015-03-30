@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="edouard-pc" name="friendsofmine.ActiviteServiceIntegrationSpec" tests="2" time="0.436" timestamp="2015-03-30T12:52:32">
+  <properties />
+  <testcase classname="friendsofmine.ActiviteServiceIntegrationSpec" name="test insertion ou mise à jour d&apos;une activité avec responsable" time="0.357" />
+  <testcase classname="friendsofmine.ActiviteServiceIntegrationSpec" name="test suppression d&apos;une activité" time="0.077" />
+  <system-out><![CDATA[--Output from test insertion ou mise à jour d'une activité avec responsable--
+--Output from test suppression d'une activité--
+je passe]]></system-out>
+  <system-err><![CDATA[--Output from test insertion ou mise à jour d'une activité avec responsable--
+--Output from test suppression d'une activité--
+]]></system-err>
+</testsuite>

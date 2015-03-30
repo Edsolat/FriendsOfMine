@@ -1,0 +1,13 @@
+Testsuite: friendsofmine.ActiviteServiceIntegrationSpec
+Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 0,436 sec
+------------- Standard Output ---------------
+--Output from test insertion ou mise à jour d'une activité avec responsable--
+--Output from test suppression d'une activité--
+je passe------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from test insertion ou mise à jour d'une activité avec responsable--
+--Output from test suppression d'une activité--
+------------- ---------------- ---------------
+
+Testcase: test insertion ou mise à jour d'une activité avec responsable took 0,357 sec
+Testcase: test suppression d'une activité took 0,077 sec

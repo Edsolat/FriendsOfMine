@@ -17,5 +17,11 @@ class ActiviteService {
         uneActivite
     }
 
-
+    def deleteActivite(Activite uneActivite) {
+        if (Activite.findById(uneActivite.id)) {
+            uneActivite.responsable.removeFromActivites(uneActivite)
+            uneActivite.delete(flush: true)
+            uneActivite.save(flush: true)
+        }
+    }
 }
