@@ -1,2 +1,0 @@
---Output from test insertion ou mise à jour d'une activité avec responsable--
---Output from test suppression d'une activité--

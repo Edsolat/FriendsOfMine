@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="edouard-pc" id="0" name="ActiviteServiceIntegrationSpec" package="friendsofmine" tests="2" time="0.436" timestamp="2015-03-30T12:52:32">
+  <testsuite errors="0" failures="0" hostname="edouard-pc" id="0" name="JeuTestServiceIntegrationSpec" package="friendsofmine" tests="1" time="0.211" timestamp="2015-04-01T12:59:11">
       <properties />
 
-      <testcase classname="friendsofmine.ActiviteServiceIntegrationSpec" name="test insertion ou mise à jour d&apos;une activité avec responsable" time="0.357" />
+      <testcase classname="friendsofmine.JeuTestServiceIntegrationSpec" name="test creation jeu de tests pour activités" time="0.209" />
 
-      <testcase classname="friendsofmine.ActiviteServiceIntegrationSpec" name="test suppression d&apos;une activité" time="0.077" />
+      <system-out><![CDATA[--Output from test creation jeu de tests pour activités--
+Hibernate: select count(*) as y0_ from activite this_
+Hibernate: select count(*) as y0_ from activite this_
+Hibernate: select count(*) as y0_ from activite this_
+Hibernate: select count(*) as y0_ from activite this_
+Hibernate: select count(*) as y0_ from activite this_
+Hibernate: select count(*) as y0_ from activite this_
+]]></system-out>
 
-      <system-out><![CDATA[--Output from test insertion ou mise à jour d'une activité avec responsable--
---Output from test suppression d'une activité--
-je passe]]></system-out>
-
-      <system-err><![CDATA[--Output from test insertion ou mise à jour d'une activité avec responsable--
---Output from test suppression d'une activité--
+      <system-err><![CDATA[--Output from test creation jeu de tests pour activités--
 ]]></system-err>
 
   </testsuite>

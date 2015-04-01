@@ -7,7 +7,7 @@ class ActiviteService {
 
     boolean transactional = true
 
-    Activite insertOrUpdateActiviteForResponsable(Activite uneActivite, Utilisateur unResponsable) {
+     static Activite insertOrUpdateActiviteForResponsable(Activite uneActivite, Utilisateur unResponsable) {
         //if (!unResponsable.activites && unResponsable.activites.contains(uneActivite))
         //    unResponsable.activites.remove(uneActivite)
         uneActivite.setResponsable(unResponsable)
@@ -17,9 +17,17 @@ class ActiviteService {
         uneActivite
     }
 
-    def deleteActivite(Activite uneActivite) {
+    static Activite insertOrUpdateActivite(Activite uneActivite) {
+        //if (!unResponsable.activites && unResponsable.activites.contains(uneActivite))
+        //    unResponsable.activites.remove(uneActivite)
+        uneActivite.save()
+        uneActivite
+    }
+
+    static def deleteActivite(Activite uneActivite) {
         if (Activite.findById(uneActivite.id)) {
-            uneActivite.responsable.removeFromActivites(uneActivite)
+            //uneActivite.responsable.delete(flush: true)
+            uneActivite.responsable = null
             uneActivite.delete(flush: true)
             uneActivite.save(flush: true)
         }
