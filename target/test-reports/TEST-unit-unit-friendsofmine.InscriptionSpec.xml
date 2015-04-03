@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="edouard-pc" name="friendsofmine.InscriptionSpec" tests="2" time="4.339" timestamp="2015-04-01T13:30:38">
+  <properties />
+  <testcase classname="friendsofmine.InscriptionSpec" name="test la validite d&apos;une inscription valide" time="4.221" />
+  <testcase classname="friendsofmine.InscriptionSpec" name="test l&apos;invalidite d&apos;une inscription non valide" time="0.068" />
+  <system-out><![CDATA[--Output from test la validite d'une inscription valide--
+--Output from test l'invalidite d'une inscription non valide--
+]]></system-out>
+  <system-err><![CDATA[--Output from test la validite d'une inscription valide--
+--Output from test l'invalidite d'une inscription non valide--
+]]></system-err>
+</testsuite>

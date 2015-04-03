@@ -1,0 +1,2 @@
+--Output from test la validite d'une inscription valide--
+--Output from test l'invalidite d'une inscription non valide--

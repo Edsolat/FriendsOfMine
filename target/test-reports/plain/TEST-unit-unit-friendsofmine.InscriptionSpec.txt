@@ -1,0 +1,13 @@
+Testsuite: friendsofmine.InscriptionSpec
+Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 4,339 sec
+------------- Standard Output ---------------
+--Output from test la validite d'une inscription valide--
+--Output from test l'invalidite d'une inscription non valide--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from test la validite d'une inscription valide--
+--Output from test l'invalidite d'une inscription non valide--
+------------- ---------------- ---------------
+
+Testcase: test la validite d'une inscription valide took 4,221 sec
+Testcase: test l'invalidite d'une inscription non valide took 0,068 sec
